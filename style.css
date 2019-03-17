@@ -1,1 +1,48 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+section{
+    width: 100%;
+}
+
+img{
+    display: inline-block;
+}
+
+/* Planeta
+ * */
+section#espacio{
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#tierra{
+    height: 30em;
+    width: 30em;
+}
+
+img#planeta{
+    position:absolute;
+    display: block;
+    height: 20em;
+    width: 20em;
+    padding: 5em;
+}
+
+div#orbita{
+    width: 30em;
+    height: 30em;
+    position: absolute;
+}
+
+section#planeta img{
+    position: absolute;
+    left: 50%;
+    top: 10em;
+
+}
