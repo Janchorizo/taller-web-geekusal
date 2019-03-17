@@ -20,3 +20,15 @@ function drop(ev) {
 
   ev.target.appendChild(newObject);
 }
+
+function lanzar(ev){
+    const plataforma = document.getElementById('plataforma');
+    let nave = null, orbit = "";
+
+    if(plataforma.childNodes.length > 0){
+        nave = plataforma.childNodes[0].cloneNode(true);
+
+        document.getElementById('orbita').appendChild(nave);
+        quitar();
+    }
+}
