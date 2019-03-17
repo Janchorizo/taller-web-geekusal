@@ -47,6 +47,13 @@ section#planeta img{
 
 }
 
+div#orbita img.nave{
+    height: 7em;
+    width:auto;
+
+    position: absolute;
+}
+
 /* NASA
  * */
 section#NASA{

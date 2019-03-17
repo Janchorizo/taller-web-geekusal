@@ -23,8 +23,9 @@
             <img src="img/nave4.svg" class="nave" draggable="true" ondragstart="drag(event)" id="nave4">
         </div>
         <div id="menu">
+            <button onclick="lanzar(event)">Lanzar</button>
         </div>
-        <div id="plataforma"></div>
+        <div id="plataforma" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     </section>
 
     <script src="app.js" charset="utf-8"></script>
