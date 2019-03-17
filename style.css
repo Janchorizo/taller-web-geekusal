@@ -52,6 +52,17 @@ div#orbita img.nave{
     width:auto;
 
     position: absolute;
+
+    transform-origin: 13em 13em;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: orbit;
+}
+
+@keyframes orbit { 
+    from { transform:rotate(0deg); } 
+    to { transform:rotate(360deg); }
 }
 
 /* NASA
